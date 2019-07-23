@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Find latitude and longitude on a map — Martyn Afford</title>
+  <link rel="stylesheet" href="leaflet/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map">
+    <img id="crosshair" src="crosshair.gif">
+  </div>
+
+  <div id="info">
+    As <span id="geojson">GeoJSON</span> or <span id="wiki">WikiText</span><br>
+    <span id="lat">0.0</span>, <span id="lng">0.0</span> (<span id="zoom">0</span>)
+  </div>
+
+  <script src="leaflet/leaflet.js"></script>
+  <script src="code.js"></script>
+</body>
+</html>

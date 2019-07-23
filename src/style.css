@@ -1,0 +1,37 @@
+html,
+body,
+#map {
+ position: relative;
+ display: block;
+ margin: 0;
+ padding: 0;
+ height: 100%;
+}
+
+#crosshair {
+ position: absolute;
+ width: 19px;
+ height: 19px;
+ z-index: 401;
+}
+
+#info {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ padding: .5em;
+ background: rgba(0, 0, 0, 0.85);
+ color: #fff;
+ font-size: 10pt;
+ line-height: 1.5;
+ z-index: 401;
+}
+
+#geojson,
+#wiki {
+ cursor: pointer;
+ color: #bbf;
+}
+
+@media screen and (max-width: 400px) { #info { font-size: 9pt; } }
+@media screen and (max-width: 380px) { #info { font-size: 8pt; } }
